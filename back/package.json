@@ -1,0 +1,33 @@
+{
+  "name": "coca-gola-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/koa": "^2.13.4",
+    "@types/node": "^17.0.8",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "koa": "^2.13.4"
+  }
+}

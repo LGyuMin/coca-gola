@@ -1,0 +1,14 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es2015", "es6", "dom", "dom.iterable"],
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true
+  }
+}
